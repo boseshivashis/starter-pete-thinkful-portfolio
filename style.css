@@ -94,15 +94,27 @@ hr {
   border: solid;
 }
 
-
-
-.about-section {
-  display:flexbox;
+.parent {
+  margin:1px;
+  /* margin: 1rem;
+  padding: 2rem 2rem; */
+  text-align: center;
+  display: flex;
   box-sizing: border-box;
-  size: 400px;
-  border: solid;
+  width: 100%;
 
 }
+.child {
+  flex: 1;
+  vertical-align: middle;
+  text-align: left;
+}
 
-
-
+.child-image {
+  flex: 1;
+  vertical-align: top;
+  text-align: center;
+  width: 100%;
+  /* padding:0px;
+  margin: 0px; */
+}
