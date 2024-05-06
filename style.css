@@ -37,6 +37,12 @@ article div {
   width: 100%;
 }
 
+article div p{
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
@@ -52,7 +58,12 @@ a:hover {
 }
 
 nav a {
-  padding-left: 20px;
+  /*padding-left: 20px;*/
+  display: flexbox;
+  vertical-align: center;
+  align-items: left;
+  margin: 20px;
+  padding-top: 10px;
 }
 
 /* Images */
@@ -76,3 +87,22 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.header-container {
+  vertical-align: top;
+  text-align: center;
+  border: solid;
+}
+
+
+
+.about-section {
+  display:flexbox;
+  box-sizing: border-box;
+  size: 400px;
+  border: solid;
+
+}
+
+
+
