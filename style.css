@@ -5,7 +5,12 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  /* padding-left: 70px;
+  padding-right: 50px;
+  margin-left: 70px;
+  margin-top: 40px; */
+  /* margin-right: 0px; */
+  box-sizing: border-box;
 }
 
 /* Headings */
@@ -14,6 +19,12 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+}
+
+h2, h3, hr {
+  width: 50%;
+  align-items: left;
+  margin-left: 0px;
 }
 
 /* Header */
@@ -38,7 +49,7 @@ article div {
 }
 
 article div p{
-  text-align: center;
+  text-align: left;
   width: 100%;
   font-size: 14px;
 }
@@ -46,6 +57,7 @@ article div p{
 /* Paragraphs */
 p {
   line-height: 1.5;
+  text-align: left;
 }
 
 /* Links */
@@ -96,20 +108,23 @@ hr {
 
 .parent {
   margin:1px;
+  flex:auto;
   /* margin: 1rem;
   padding: 2rem 2rem; */
   text-align: center;
   display: flex;
   box-sizing: border-box;
-  width: 100%;
+  width: 50%;
+  border: solid;
 
 }
 .child {
   flex: 1;
   vertical-align: middle;
   text-align: left;
-  margin: 0px;
-  padding-left: 50px;
+  width: 50%;
+  border: solid;
+  box-sizing: border-box;
 }
 
 .child-image {
@@ -117,4 +132,16 @@ hr {
   vertical-align: top;
   text-align: right;
   width: 100%;
+  padding-right: 40px;
+}
+
+div h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  /* padding-left: 50px; */
+
+}
+
+div p {
+
 }
