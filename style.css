@@ -5,12 +5,10 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  /* padding-left: 70px;
-  padding-right: 50px;
+  /* box-sizing: border-box; */
   margin-left: 70px;
-  margin-top: 40px; */
-  /* margin-right: 0px; */
-  box-sizing: border-box;
+  margin-top: 40px;
+  margin-right: 0px;
 }
 
 /* Headings */
@@ -108,23 +106,18 @@ hr {
 
 .parent {
   margin:1px;
-  flex:auto;
-  /* margin: 1rem;
-  padding: 2rem 2rem; */
+  flex:1;
   text-align: center;
   display: flex;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 50%;
-  border: solid;
-
 }
 .child {
   flex: 1;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: left;
   width: 50%;
-  border: solid;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .child-image {
@@ -132,16 +125,37 @@ hr {
   vertical-align: top;
   text-align: right;
   width: 100%;
-  padding-right: 40px;
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 div h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
-  /* padding-left: 50px; */
+}
+
+.portfolio-parent {
+  /* margin:1px; */
+  flex:1;
+  text-align: center;
+  display: flex;
+  /* box-sizing: border-box; */
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
 
 }
 
-div p {
+.protfolio-child {
+  flex: 1;
+  vertical-align: top;
+  text-align: center;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+}
 
+.protfolio-child h3 {
+  text-align: center;
 }
