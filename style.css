@@ -47,7 +47,7 @@ article div {
 }
 
 article div p{
-  text-align: left;
+  text-align: center;
   width: 100%;
   font-size: 14px;
 }
@@ -105,11 +105,10 @@ hr {
 }
 
 .parent {
-  margin:1px;
+  margin:0px;
   flex:1;
   text-align: center;
   display: flex;
-  /* box-sizing: border-box; */
   width: 50%;
 }
 .child {
@@ -117,7 +116,6 @@ hr {
   vertical-align: top;
   text-align: left;
   width: 50%;
-  /* box-sizing: border-box; */
 }
 
 .child-image {
@@ -130,30 +128,50 @@ hr {
   padding: 0px;
 }
 
-div h3 {
+/* div h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
-}
+  text-align: right;
+  align-content: center;
+} */
 
 .portfolio-parent {
-  /* margin:1px; */
-  flex:1;
   text-align: center;
   display: flex;
-  /* box-sizing: border-box; */
   width: 50%;
   margin: 0px;
   padding: 0px;
+  
 
 }
 
-.protfolio-child {
+.protfolio-child-abstract-red {
   flex: 1;
   vertical-align: top;
   text-align: center;
   width: 50%;
   margin: 0px;
   padding: 0px;
+
+}
+
+.protfolio-child-spiral-zany {
+  flex: 1;
+  vertical-align: top;
+  text-align: center;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.protfolio-child-rainbow {
+  flex: 1;
+  vertical-align: top;
+  text-align: center;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 .protfolio-child h3 {
