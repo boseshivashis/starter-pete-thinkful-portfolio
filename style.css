@@ -5,10 +5,11 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  /* box-sizing: border-box; */
-  margin-left: 70px;
-  margin-top: 40px;
-  margin-right: 0px;
+  box-sizing: border-box;
+   /* box-sizing: border-box; */
+   margin-left: 200px;
+   margin-top: 40px;
+   margin-right: 0px;
 }
 
 /* Headings */
@@ -93,6 +94,8 @@ footer {
   text-align: center;
 }
 
+
+
 /* Other page elements */
 hr {
   border: 1px solid black;
@@ -112,10 +115,39 @@ hr {
   width: 50%;
 }
 .child {
-  flex: 1;
   vertical-align: top;
+  flex:1;
+}
+
+.child ul {
   text-align: left;
-  width: 50%;
+}
+
+.child-image-containter {
+
+  justify-content: left;
+  margin-top: 1rem;
+  gap: 1rem;
+
+  height: auto; 
+  border: 0px;
+
+
+
+}
+
+.child-image-containter img {
+ flex:1;
+ padding-left: 5px;
+ padding-right: 5px;
+ margin-left: 5px;
+ margin-right: 5px;
+ max-width: 100%;
+}
+
+.child-image-containter h3 {
+  justify-content: center;
+  width: 100%;
 }
 
 .child-image {
@@ -124,56 +156,6 @@ hr {
   text-align: right;
   width: 100%;
   align-content: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* div h3 {
-  font-family: "Playfair Display", Times, serif;
-  text-align: right;
-  align-content: center;
-} */
-
-.portfolio-parent {
-  text-align: center;
-  display: flex;
-  width: 50%;
-  margin: 0px;
-  padding: 0px;
-  
-
-}
-
-.protfolio-child-abstract-red {
-  flex: 1;
-  vertical-align: top;
-  text-align: center;
-  width: 50%;
-  margin: 0px;
-  padding: 0px;
-
-}
-
-.protfolio-child-spiral-zany {
-  flex: 1;
-  vertical-align: top;
-  text-align: center;
-  width: 50%;
-  margin: 0px;
-  padding: 0px;
-
-}
-
-.protfolio-child-rainbow {
-  flex: 1;
-  vertical-align: top;
-  text-align: center;
-  width: 50%;
-  margin: 0px;
-  padding: 0px;
-
-}
-
-.protfolio-child h3 {
-  text-align: center;
+  padding-right: 20px;
+  margin-right: 20px;
 }
