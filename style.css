@@ -7,7 +7,7 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
    /* box-sizing: border-box; */
-   margin-left: 200px;
+   margin-left: 500px;
    margin-top: 40px;
    margin-right: 0px;
 }
@@ -69,10 +69,9 @@ a:hover {
 }
 
 nav a {
-  /*padding-left: 20px;*/
-  display: flexbox;
+  /* display: flexbox;
   vertical-align: center;
-  align-items: left;
+  align-items: left; */
   margin: 20px;
   padding-top: 10px;
 }
@@ -108,15 +107,34 @@ hr {
 }
 
 .parent {
-  margin:0px;
+  margin:1px;
   flex:1;
   text-align: center;
   display: flex;
   width: 50%;
 }
 .child {
-  vertical-align: top;
+  vertical-align: center;
   flex:1;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.parent-nav {
+  margin:1px;
+  flex:1;
+  text-align: center;
+  display: flex;
+  width: 50%;
+}
+
+.child-nav {
+  vertical-align: center;
+  text-align: left;
+  flex:2;
+  /* display: inline; */
 }
 
 .child ul {
