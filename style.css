@@ -6,7 +6,6 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
-   /* box-sizing: border-box; */
    margin-left: 500px;
    margin-top: 40px;
    margin-right: 0px;
@@ -29,6 +28,8 @@ h2, h3, hr {
 /* Header */
 header {
   text-align: center;
+  width: 50%;
+
 }
 
 /* Containers */
@@ -69,9 +70,6 @@ a:hover {
 }
 
 nav a {
-  /* display: flexbox;
-  vertical-align: center;
-  align-items: left; */
   margin: 20px;
   padding-top: 10px;
 }
@@ -104,6 +102,7 @@ hr {
   vertical-align: top;
   text-align: center;
   display: flex;
+
 }
 
 .parent {
@@ -120,21 +119,32 @@ hr {
   padding-right: 5px;
   margin-left: 5px;
   margin-right: 5px;
+
+}
+
+.child h3 {
+  text-align: center;
+  width: 100%;
 }
 
 .parent-nav {
-  margin:1px;
-  flex:1;
-  text-align: center;
+  text-align: left;
   display: flex;
-  width: 50%;
+  flex: 1;
+  /* width: 50%; */
+  /* max-width: 100%; */
+  /* align-items: left; */
 }
 
+
+.parent-nav h1{
+  text-align: left;
+}
 .child-nav {
   vertical-align: center;
   text-align: left;
-  flex:2;
-  /* display: inline; */
+  flex: 1;
+
 }
 
 .child ul {
